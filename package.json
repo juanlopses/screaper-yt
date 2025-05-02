@@ -1,0 +1,22 @@
+{
+  "name": "y2dl-api",
+  "version": "1.0.0",
+  "description": "API REST para obtener metadatos y enlace de descarga de YouTube a MP3 usando",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "*",
+    "cheerio": "*",
+    "cors": "*",
+    "express": "*",
+    "fs-extra": "*"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
